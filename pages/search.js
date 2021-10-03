@@ -2,6 +2,7 @@ import Head from "next/head"
 import Header from "../components/Header"
 import Response from "../Response";
 import { useRouter } from "next/router";
+import SearchResults from "../components/SearchResults";
 
 export default function search({results}) {
     console.log(results);
@@ -17,7 +18,7 @@ export default function search({results}) {
             {/* Header */}
             <Header></Header>
             {/* Search Results */}
-
+            <SearchResults results={results}></SearchResults>
         </div>
     )
 }
