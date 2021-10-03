@@ -9,7 +9,7 @@ import { DotsVerticalIcon,
 
 export default function HeaderOptions() {
     return (
-        <div className='mt-6 border-b-[1px] flex w-full justify-evenly text-gray-800 lg:text-base lg:justify-start lg:pl-4'>
+        <div className='mt-6 border-b-[1px] flex w-full justify-evenly text-gray-800 lg:text-base lg:justify-start lg:pl-4 transition-all'>
             {/* Left */}
             <div className='flex space-x-6'>
                 <HeaderOption Icon={SearchIcon} title="All" selected/>
