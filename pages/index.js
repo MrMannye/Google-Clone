@@ -8,6 +8,7 @@ import { useRef } from 'react'
 import { useRouter } from 'next/router'
 
 export default function Home() {
+  
   const router = useRouter();
   const searchInputRef = useRef(null);
 
@@ -26,7 +27,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      {/* Head */}
+      {/* Header */}
       <header className='flex w-full justify-between items-center text-sm text-gray-700'>
         <div className="header__left flex space-x-4 items-center">
           <p className='link'>About</p>
@@ -56,7 +57,7 @@ export default function Home() {
           <MicrophoneIcon className='w-5 text-gray-500 ml-3'/>
         </div>
 
-        <div className='flex flex-col w-1/2 mt-8 space-y-2 justify-center sm:space-y-0 sm:flex-row sm:space-x-3'>
+        <div className='flex flex-col w-1/2 mt-8 space-y-2 justify-center sm:flex-row sm:space-y-0  sm:space-x-3'>
           <button className='btn' onClick={search}>Google Search</button>
           <button className='btn' onClick={search}>I'm Feeling Lucky</button>
         </div>

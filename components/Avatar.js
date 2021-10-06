@@ -3,7 +3,7 @@ export default function Avatar({url, className}) {
         <img 
         loading='lazy'
         src={url}
-        className={`h-8 rounded-full hover:scale-110 transition-all cursor-pointer ${className} animate-bounce`}
+        className={`h-8 rounded-full hover:scale-110 transition-all cursor-pointer ${className}`}
         >
         </img>
     )
