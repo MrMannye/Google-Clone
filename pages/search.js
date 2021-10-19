@@ -38,5 +38,4 @@ export async function getServerSideProps(context) {
             results: data,
         }
     }
-
 }

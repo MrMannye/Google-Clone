@@ -1,3 +1,6 @@
+import PaginationButtons from "./PaginationButtons"
+
+
 export default function SearchResults({results}) {
     return (
         <div className='mx-auto w-full px-6 sm:pl-[5%] md:pl-[14%] lg:pl-32 transition-all'>
@@ -22,7 +25,7 @@ export default function SearchResults({results}) {
                     </div>
                 )
             })}
-
+            <PaginationButtons/>
         </div>
     )
 }
