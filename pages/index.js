@@ -25,6 +25,8 @@ export default function Home() {
       <Head>
         <title>Google</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta property="og:image" content="/google-logo.jpg" />
+        <meta property="og:description" content="Clone App from the famous browser Google" />
       </Head>
 
       {/* Header */}
